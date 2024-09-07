@@ -51,13 +51,13 @@ Edit or add files as needed. Once you’ve made the changes, stage and commit th
    Replace `<your-username>` with your GitHub username:
 
    ```bash
-   git remote add fork https://github.com/<your-username>/index.git
+   git remote set-url fork git@github.com:<your-username>/index.git
    ```
 
 5. ***Push your branch to your fork:***
 
    ```bash
-   git push myfork your-branch-name
+   git push fork main
    ```
 
 6. ***Create a Pull Request***
